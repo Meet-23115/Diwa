@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'>
+        
+    </script>
+</head>
+<body>
+    <header id="header"class="header">
+      <nav> 
+        <ul>    
+        <li id="home">HOME</li>
+            <li id="search" >SEARCH</li>
+            <li id="profile" >PROFILE</li>
+            <li id="exit" >EXIT</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <a href="/frontend/search.html"><input type="button"value="click" id="btn" onclick="return btn()"></input></a>
+        
+    </main>
+
+
+    <footer>
+        <div id="form_container">
+            <div id="title_holder">
+                <h1>FORM</h1>
+            </div>
+            <form action="/" method="get" id="form"  name="form" >
+                <input type="text"placeholder="Enter your name"class="form_inp" id="name_inp" name="name" >
+                <input type="number"placeholder="Enter your number"class="form_inp" id="nmb_inp" name="number" >
+                <input type="number"placeholder="Enter your age"class="form_inp" id="age_inp" name="age" >
+                <input type="password"placeholder="Enter your passcode"class="form_inp" id="pass_inp" name="passcode" >
+                <input type="button" name="submit" value="submit" id="submit" onclick="return den()" >
+            </form>
+        </div>
+    </footer>
+
+
+    <div id="background"></div>
+</body>
+</html>
